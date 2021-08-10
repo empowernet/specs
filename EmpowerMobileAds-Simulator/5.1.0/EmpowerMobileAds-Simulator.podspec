@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Private', :file => 'LICENSE' }
   s.author       = { 'Empower' => 'info@empower.net' }
   s.platform     = :ios, '9.0'
-  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-Simulator-5.0.1.zip' }
+  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-Simulator-5.1.0.zip' }
   
   s.libraries = 'z'
 
