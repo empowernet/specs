@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'EmpowerMobileAds-Simulator'
-  s.version      = '5.0.1'
+  s.version      = '5.1.0'
   s.summary      = 'Empower Mobile Ads Simulator Bundle'
   s.description  = <<-DESC
                     Simulator-only bundle of mobile ads manager for displaying ads from Empower
