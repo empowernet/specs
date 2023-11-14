@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   
   s.libraries = 'z'
 
-  s.frameworks = 'Pods_EmpowerCustomAdapter.framework'
   s.vendored_frameworks = 'EmpowerMobileAdsCustomAdapter.framework'
   s.static_framework = true
   
