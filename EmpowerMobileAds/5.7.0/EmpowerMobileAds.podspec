@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.libraries = 'z'
 
   s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'EventKit', 'iAd', 'JavaScriptCore', 'MessageUI', 'Social', 'StoreKit', 'SystemConfiguration', 'WatchConnectivity', 'WebKit'
-  s.vendored_frameworks = 'EmpowerMobileAds.framework', 'Frameworks/GoogleMobileAds.framework'
+  s.vendored_frameworks = 'EmpowerMobileAds.xcframework', 'Frameworks/GoogleMobileAds.framework'
   s.static_framework = true
   
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
