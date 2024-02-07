@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 			       :OTHER_CFLAGS => '$(inherited)',
 			       :OTHER_LDFLAGS => '$(inherited)',
 			       :HEADER_SEARCH_PATHS => '$(inherited)',
-			       :FRAMEWORK_SEARCH_PATHS => '$(inherited)'
+			       :FRAMEWORK_SEARCH_PATHS => '$(inherited)'}
   s.dependency 'EmpowerMobileAdsUtility'
 			     }
   #s.static_framework = true
