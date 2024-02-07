@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
 			       :HEADER_SEARCH_PATHS => '$(inherited)',
 			       :FRAMEWORK_SEARCH_PATHS => '$(inherited)'}
   s.dependency 'EmpowerMobileAdsUtility'
-			     }
   #s.static_framework = true
   
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
