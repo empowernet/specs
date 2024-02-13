@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Empower' => 'info@empower.net' }
   s.platform     = :ios, '12.0'
   s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-5.9.1.zip'} 
-  s.vendored_frameworks = 'Frameworks/EmpowerMobileAds.xcframework', 'Frameworks/GoogleMobileAds.xcframework', 'Frameworks/GoogleInteractiveMediaAds.xcframework', 'Frameworks/UserMessagingPlatform.xcframework'
+  s.vendored_frameworks = 'Frameworks/EmpowerMobileAds.xcframework'
   s.static_framework = true
   s.requires_arc = true
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
