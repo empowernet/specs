@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'EmpowerMobileAds'
-  s.version      = '5.8.43'
+  s.version      = '5.8.44'
   s.summary      = 'Empower Mobile Ads'
   s.description  = <<-DESC
                     Mobile Ads manager for displaying ads from Empower
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Private', :file => 'LICENSE' }
   s.author       = { 'Empower' => 'info@empower.net' }
   s.platform     = :ios, '12.0'
-  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-5.8.43.zip'} 
+  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-5.8.44.zip'} 
   s.vendored_frameworks = 'Frameworks/EmpowerMobileAds.xcframework', 'Frameworks/GoogleMobileAds.xcframework', 'Frameworks/GoogleInteractiveMediads.xcframework', 'Frameworks/UserMessagingPlatform.xcframework'
   s.static_framework = true
   s.requires_arc = true
