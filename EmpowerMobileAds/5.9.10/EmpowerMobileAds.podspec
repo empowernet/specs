@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Private', :file => 'LICENSE' }
   s.author       = { 'Empower' => 'info@empower.net' }
   s.platform     = :ios, '12.0'
-  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-5.9.9.zip'} 
+  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-5.9.10.zip'} 
   s.vendored_frameworks = 'Frameworks/EmpowerMobileAds.xcframework'
   s.static_framework = true
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
