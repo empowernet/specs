@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   s.libraries = 'z'
 
-  s.frameworks = 'UIKit', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'SafariServices', 'MessageUI', 'Foundation', 'CoreTelephony', 'CoreMotion', 'AVFoundation', 'StoreKit', 'SystemConfiguration', 'AppTrackingTransparency', 'WebKit', 'AdSupport'
+  s.frameworks = 'AdSupport', 'AppTrackingTransparency', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreMotion', 'CoreTelephony', 'Foundation', 'MessageUI', 'SafariServices', 'StoreKit', 'SystemConfiguration', 'UIKit', 'WebKit'
   s.vendored_frameworks = 'EmpowerMobileAds.xcframework', 'Frameworks/AppLovinSDK.xcframework', 'Frameworks/GoogleMobileAds.xcframework', 'Frameworks/UserMessagingPlatform.xcframework'
   s.static_framework = true
   
