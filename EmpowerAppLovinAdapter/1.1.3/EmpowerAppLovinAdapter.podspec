@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   s.libraries = 'z'
   s.frameworks = 'JavaScriptCore'
   s.vendored_frameworks = 'EmpowerAppLovinAdapter.xcframework'
-  s.dependency = 'Google-Mobile-Ads-SDK', 'AppLovinSDK'
+  s.dependency = 'Google-Mobile-Ads-SDK'
+  s.dependency = 'AppLovinSDK'
   
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '6.0' }
   s.swift_version = '6.0'
