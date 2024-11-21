@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.libraries = 'z'
   s.frameworks = 'JavaScriptCore'
   s.vendored_frameworks = 'EmpowerAppLovinAdapter.xcframework'
-  s.static_library = true
+  s.static_framework = true
   
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '6.0' }
   s.swift_version = '6.0'
