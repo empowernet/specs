@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.libraries = 'z'
 
   s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'EventKit', 'iAd', 'JavaScriptCore', 'MessageUI', 'Social', 'StoreKit', 'SystemConfiguration', 'WatchConnectivity', 'WebKit'
+  s.vendored_frameworks = 'EmpowerAdmobAdapter.xcframework'
   s.dependency 'Google-Mobile-Ads-SDK'
   s.static_framework = true
   
