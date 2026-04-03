@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'EmpowerMobileAds'
-  s.version      = '9.0.7'
+  s.version      = '9.1.0'
   s.summary      = 'Empower Mobile Ads'
   s.description  = <<-DESC
                     Mobile Ads manager for displaying ads from Empower
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'Private', :file => 'LICENSE' }
   s.author       = { 'Empower' => 'info@empower.net' }
   s.platform     = :ios, '13.0'
-  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-9.0.7.zip'}
+  s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-9.1.0.zip'}
   s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'EventKit', 'iAd', 'JavaScriptCore', 'MessageUI', 'Social', 'StoreKit', 'SystemConfiguration', 'WatchConnectivity', 'WebKit' 
   s.dependency 'Google-Mobile-Ads-SDK'
   s.dependency 'AppLovinSDK'
