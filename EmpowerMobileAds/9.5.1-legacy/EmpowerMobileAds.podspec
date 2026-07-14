@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '13.0'
   s.source       = { :http => 'https://cdn.empower.net/sdk/mobile/ios/EmpowerMobileAds-9.5.1-legacy.zip'}
   s.frameworks = 'AdSupport', 'AudioToolbox', 'AVFoundation', 'CoreGraphics', 'CoreMedia', 'CoreTelephony', 'EventKit', 'iAd', 'JavaScriptCore', 'MessageUI', 'Social', 'StoreKit', 'SystemConfiguration', 'WatchConnectivity', 'WebKit' 
-  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'Google-Mobile-Ads-SDK', '12.14.0'
   s.dependency 'AppLovinSDK'
   s.dependency 'AmazonPublisherServicesSDK', '5.1.0'
   s.dependency 'AppLovinMediationAmazonAdMarketplaceAdapter','5.1.0.0'
